@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="it">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Aaron Tognoli — tutorial, contenuti, pubblicazioni, premi e portfolio." />
+  <meta name="description" content="Aaron Tognoli — tutorials, research content, publications, awards and portfolio." />
   <meta name="author" content="Aaron Tognoli" />
   <meta property="og:title" content="Aaron Tognoli" />
-  <meta property="og:description" content="PhD student in AI & Robotics, eye tracking neuromorfico e smart eyewear." />
+  <meta property="og:description" content="PhD student in AI & Robotics, neuromorphic eye tracking and smart eyewear." />
   <meta property="og:type" content="website" />
   <title>Aaron Tognoli · Tutorials, Publications & Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,17 +16,16 @@
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="Homepage Aaron Tognoli">
-      <span class="brand-mark">AT</span>
+    <a class="brand" href="#top" aria-label="Aaron Tognoli homepage">
+      <img class="brand-mark" src="assets/avatar.jpg" alt="Portrait of Aaron Tognoli">
       <span>Aaron Tognoli</span>
     </a>
-    <button class="nav-toggle" aria-label="Apri menu" aria-expanded="false">☰</button>
-    <nav class="site-nav" aria-label="Navigazione principale">
-      <a href="#tutorial">Tutorial</a>
-      <a href="#publications">Pubblicazioni</a>
-      <a href="#awards">Premi</a>
-      <a href="#portfolio">Portfolio</a>
-      <a href="#contact">Contatti</a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#publications">Publications</a>
+      <a href="#patents">Patents</a>
+      <a href="#awards">Awards</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
@@ -34,17 +33,19 @@
     <section class="hero section">
       <div class="hero-content">
         <p class="eyebrow">AI · Robotics · Neuromorphic Vision · Smart Eyewear</p>
-        <h1>Creo algoritmi efficienti per eye tracking e visione embedded.</h1>
-        <p class="lead">Sono Aaron Tognoli, PhD student in Information Technology al Politecnico di Milano, nel gruppo AIRLab / DEIB. La mia ricerca esplora sensori neuromorfici, event-based cameras e reti leggere per dispositivi indossabili.</p>
+        <h1>Efficient algorithms for eye tracking and embedded vision.</h1>
+        <p class="lead">I am Aaron Tognoli, a PhD student in Information Technology at Politecnico di Milano, working at the Smart Eyewear Lab and AIRLab. My research explores neuromorphic sensors, event-based cameras and lightweight neural networks for wearable devices.</p>
         <div class="hero-actions">
-          <a class="button primary" href="#publications">Vedi pubblicazioni</a>
-          <a class="button secondary" href="https://github.com/aarontognoli" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="button primary" href="#publications">View publications</a>
+          <!-- <a class="button secondary" href="https://github.com/aarontognoli" target="_blank" rel="noreferrer">GitHub</a> -->
         </div>
       </div>
-      <aside class="hero-card" aria-label="Profilo sintetico">
-        <div class="avatar">AT</div>
+      <aside class="hero-card" aria-label="Profile summary">
+        
+        <img class="avatar" src="assets/avatar.jpg" alt="Portrait of Aaron Tognoli">
+        
         <h2>Aaron Tognoli</h2>
-        <p>PhD student, Computer Science and Engineering · Politecnico di Milano</p>
+        <p>PhD student <br> Science and Engineering <br> Politecnico di Milano</p>
         <dl>
           <div><dt>Lab</dt><dd>AIRLab · Smart Eyewear Lab</dd></div>
           <div><dt>Focus</dt><dd>Event-based eye tracking</dd></div>
@@ -56,143 +57,227 @@
     <section class="section intro-grid" id="about">
       <div>
         <p class="eyebrow">About</p>
-        <h2>Ricerca applicata tra AI e hardware vincolato</h2>
+        <h2>Applied research at the intersection of AI and constrained hardware</h2>
       </div>
-      <p>Il mio progetto di dottorato riguarda algoritmi leggeri per eye tracking su piattaforme embedded e smart eyewear, con attenzione a sensori event-based, simulazione di dati, domain adaptation e deployment real-time su hardware a risorse limitate.</p>
+      <p>My doctoral project focuses on lightweight algorithms for eye tracking on embedded platforms and smart eyewear, with attention to event-based sensors, data simulation, domain adaptation and real-time deployment on resource-constrained hardware.</p>
     </section>
 
-    <section class="section" id="tutorial">
+    <!-- <section class="section" id="tutorial">
       <div class="section-heading">
-        <p class="eyebrow">Tutorial e contenuti</p>
-        <h2>Guide pratiche</h2>
-        <p>Una raccolta di contenuti tecnici pensati per studenti, ricercatori e developer che lavorano su computer vision, deep learning embedded e sistemi neuromorfici.</p>
-      </div>
+        <p class="eyebrow">Tutorials and content</p>
+        <h2>Practical guides</h2>
+        <p>A collection of technical content for students, researchers and developers working on computer vision, embedded deep learning and neuromorphic systems.</p>
+      </div> 
       <div class="cards three">
         <article class="card">
           <span class="tag">Coming soon</span>
-          <h3>Introduzione alle event-based cameras</h3>
-          <p>Concetti base, rappresentazione degli eventi, pipeline di preprocessing e differenze rispetto ai sensori frame-based.</p>
-          <a href="#contact">Proponi un argomento →</a>
+          <h3>Introduction to event-based cameras</h3>
+          <p>Core concepts, event representation, preprocessing pipelines and the main differences compared with frame-based sensors.</p>
+          <a href="#contact">Suggest a topic →</a>
         </article>
         <article class="card">
           <span class="tag">Tutorial</span>
-          <h3>Reti leggere per dispositivi embedded</h3>
-          <p>Strategie per ridurre latenza, memoria e consumo energetico mantenendo accuratezza su task di visione.</p>
-          <a href="#contact">Richiedi materiali →</a>
+          <h3>Lightweight networks for embedded devices</h3>
+          <p>Strategies to reduce latency, memory footprint and energy consumption while preserving accuracy on vision tasks.</p>
+          <a href="#contact">Request materials →</a>
         </article>
         <article class="card">
           <span class="tag">Research notes</span>
-          <h3>Dataset sintetici e domain adaptation</h3>
-          <p>Appunti su come generare, annotare e validare dati sintetici per sensori emergenti con pochi dati reali disponibili.</p>
-          <a href="#contact">Collabora →</a>
+          <h3>Synthetic datasets and domain adaptation</h3>
+          <p>Notes on generating, annotating and validating synthetic data for emerging sensors when real-world data is limited.</p>
+          <a href="#contact">Collaborate →</a>
         </article>
       </div>
-    </section>
+    </section>-->
 
     <section class="section" id="publications">
       <div class="section-heading">
-        <p class="eyebrow">Pubblicazioni</p>
+        <p class="eyebrow">Publications</p>
         <h2>Research output</h2>
       </div>
+
       <div class="timeline">
         <article class="timeline-item">
           <time>2026</time>
           <div>
-            <h3>Doctoral Consortium application: Efficient lightweight Eye tracking algorithms aimed at Embedded solutions for smart eyewear</h3>
-            <p>ETRA ’26 Doctoral Consortium · Marrakesh, Morocco.</p>
-            <a href="https://dl.acm.org/doi/10.1145/3797246.3806802" target="_blank" rel="noreferrer">ACM DOI →</a>
+            <h3>Overcoming Data Scarcity for Event-Based Pupil Tracking with Synthetic and Unlabeled Data</h3>
+            <p>
+              Aaron Tognoli, Andrea Simpsi, Andrea Aspesi, Marco Cannici, Luca Merigo,
+              Matteo Matteucci, Simone Mentasti · Proceedings of the ACM on Human-Computer
+              Interaction, 10(3), ETRA018, pp. 1-18.
+            </p>
+            <a href="https://doi.org/10.1145/3806032" target="_blank" rel="noreferrer">See the Article →</a>
           </div>
         </article>
+
         <article class="timeline-item">
           <time>2026</time>
           <div>
             <h3>Lightweight Neural Networks for Event-Based 3D Gaze Estimation on Wearable Devices</h3>
-            <p>SPHERA @ ETRA 2026 · accepted paper / workshop program.</p>
-            <a href="https://sites.google.com/view/sphera-etra-2026/sphera/program" target="_blank" rel="noreferrer">Programma →</a>
+            <p>
+              Aaron Tognoli, Chiara Fossà, Andrea Simpsi, Andrea Aspesi, Luca Merigo,
+              Matteo Matteucci, Simone Mentasti, Marco Cannici · ETRA 2026, pp. 103:1-103:7.
+            </p>
+            <a href="https://doi.org/10.1145/3797246.3806214" target="_blank" rel="noreferrer">See the Article →</a>
           </div>
         </article>
+
+        <article class="timeline-item">
+          <time>2026</time>
+          <div>
+            <h3>Doctoral Consortium Application: Efficient Lightweight Eye Tracking Algorithms Aimed at Embedded Solutions for Smart Eyewear</h3>
+            <p>
+              Aaron Tognoli · ETRA 2026 Doctoral Consortium, pp. 57:1-57:3.
+            </p>
+            <a href="https://doi.org/10.1145/3797246.3806802" target="_blank" rel="noreferrer">See the Article →</a>
+          </div>
+        </article>
+
         <article class="timeline-item">
           <time>2025</time>
           <div>
             <h3>EETnet: a CNN for Gaze Detection and Tracking for Smart-Eyewear</h3>
-            <p>Andrea Aspesi, Andrea Simpsi, Aaron Tognoli, Simone Mentasti, Luca Merigo, Matteo Matteucci · IJCNN 2025.</p>
-            <a href="https://arxiv.org/abs/2511.04779" target="_blank" rel="noreferrer">arXiv →</a>
+            <p>
+              Andrea Aspesi, Andrea Simpsi, Aaron Tognoli, Simone Mentasti, Luca Merigo,
+              Matteo Matteucci · IJCNN 2025, pp. 1-8.
+            </p>
+            <a href="https://doi.org/10.1109/IJCNN64981.2025.11228557" target="_blank" rel="noreferrer">See the Article →</a>
           </div>
         </article>
+
         <article class="timeline-item">
           <time>2025</time>
           <div>
-            <h3>Neuromorphic eye tracking: a survey</h3>
-            <p>Simone Mentasti, Andrea Simpsi, Andrea Aspesi, Aaron Tognoli, Luca Merigo, Matteo Matteucci · indicizzato su DBLP.</p>
-            <a href="https://dblp.org/pid/420/7018.html" target="_blank" rel="noreferrer">DBLP →</a>
+            <h3>Neuromorphic Eye Tracking: A Survey</h3>
+            <p>
+              Simone Mentasti, Andrea Simpsi, Andrea Aspesi, Aaron Tognoli, Luca Merigo,
+              Matteo Matteucci · IJCNN 2025, pp. 1-7.
+            </p>
+            <a href="https://doi.org/10.1109/IJCNN64981.2025.11229414" target="_blank" rel="noreferrer">See the Article →</a>
           </div>
         </article>
+
+        
       </div>
     </section>
 
+    <section class="section" id="patents">
+  <div class="section-heading">
+    <p class="eyebrow">Patents</p>
+    <h2>Submitted Patents</h2>
+  </div>
+
+  <div class="timeline">
+    <article class="timeline-item">
+      <time>2024</time>
+      <div>
+        <h3>Eye tracking system for head mounted devices and method thereof</h3>
+        <p>
+          European Patent application 25425065.7
+        </p>
+        <a href="https://hdl.handle.net/11311/1315632" target="_blank" rel="noreferrer">Patent record →</a>
+      </div>
+    </article>
+
+    <!--<article class="timeline-item">
+      <time>Year</time>
+      <div>
+        <h3>Patent title</h3>
+        <p>
+          Inventors · Assignee · Patent office / application number.
+        </p>
+        <a href="#" target="_blank" rel="noreferrer">Patent record →</a>
+      </div>
+    </article>-->
+  </div>
+</section>
     <section class="section" id="awards">
       <div class="section-heading">
-        <p class="eyebrow">Premi e riconoscimenti</p>
+        <p class="eyebrow">Awards and recognition</p>
         <h2>Highlights</h2>
       </div>
       <div class="cards two">
-        <article class="card accent">
-          <h3>Menzione speciale · Confindustria Bergamo</h3>
-          <p>Menzione speciale per un software che permette un tour virtuale tra i monumenti della Firenze di Leonardo da Vinci, realizzato durante il percorso all’Istituto Paleocapa di Bergamo.</p>
-          <a href="https://www.confindustriabergamo.it/aree-di-interesse/rapporti-con-scuola-e-universita/news?action=topdf&id=32908" target="_blank" rel="noreferrer">Fonte →</a>
+        <article class="card">
+          <h3>Honourable mention Full Paper Award · ETRA 2026</h3>
+          <p>Honourable Mention Full Paper Award at ETRA 2026 - ACM Symposium on Eye Tracking Research & Applications for the paper “Overcoming Data Scarcity for Event-Based Pupil Tracking with Synthetic and Unlabeled Data”</p>
+          <a href="https://www.deib.polimi.it/eng/news-and-events/details/1508" target="_blank" rel="noreferrer">Source →</a>
         </article>
-        <article class="card muted">
-          <h3>Aggiungi nuovi premi</h3>
-          <p>Questa sezione è pronta per borse, best paper award, challenge, hackathon, teaching award o riconoscimenti accademici futuri.</p>
-          <code>_data/awards.yml</code>
+        <article class="card">
+          <h3>Special mention · Confindustria Bergamo</h3>
+          <p>Special mention for software enabling a virtual tour of the monuments of Leonardo da Vinci’s Florence, developed during High School at Istituto Paleocapa in Bergamo.</p>
+          <a href="https://www.confindustriabergamo.it/aree-di-interesse/rapporti-con-scuola-e-universita/news?action=topdf&id=32908" target="_blank" rel="noreferrer">Source →</a>
         </article>
       </div>
     </section>
-
+<!--
     <section class="section" id="portfolio">
       <div class="section-heading">
         <p class="eyebrow">Portfolio</p>
-        <h2>Progetti selezionati</h2>
+        <h2>Selected projects</h2>
       </div>
       <div class="project-grid">
         <article class="project-card">
           <div class="project-meta">Research · Eye tracking</div>
           <h3>Embedded eye tracking for smart eyewear</h3>
-          <p>Progetto di dottorato su algoritmi efficienti e robusti per sistemi indossabili, con sensori classici e neuromorfici.</p>
+          <p>Doctoral research on efficient and robust algorithms for wearable systems, using both conventional and neuromorphic sensors.</p>
         </article>
         <article class="project-card">
           <div class="project-meta">Open source · Java</div>
           <h3>Eriantys software engineering project</h3>
-          <p>Implementazione completa del gioco da tavolo Eriantys con CLI, GUI, socket TCP, server multi-game e testing sul core engine.</p>
+          <p>Complete implementation of the Eriantys board game with CLI, GUI, TCP sockets, multi-game server support and testing for the core engine.</p>
           <a href="https://github.com/aarontognoli/ing-sw-2022-somaini-taluzzi-tognoli" target="_blank" rel="noreferrer">Repository →</a>
         </article>
         <article class="project-card">
           <div class="project-meta">Learning · Behavioral models</div>
           <h3>LearnLib research project</h3>
-          <p>Ricerca su human behavioral learning e automata learning, disponibile tra i repository pubblici GitHub.</p>
+          <p>Research project on human behavioral learning and automata learning, available among the public GitHub repositories.</p>
           <a href="https://github.com/aarontognoli/SWENG2-LearnLib-ResearchProject" target="_blank" rel="noreferrer">Repository →</a>
         </article>
       </div>
     </section>
-
+  -->
     <section class="section contact" id="contact">
-      <div>
-        <p class="eyebrow">Contatti</p>
-        <h2>Parliamo di ricerca, tutorial o collaborazioni.</h2>
-        <p>Per proposte, materiali didattici, collaborazioni scientifiche o aggiornamenti del portfolio, scrivimi via email o visita i profili accademici.</p>
-      </div>
-      <div class="contact-links">
-        <a href="mailto:aaron.tognoli@polimi.it">Email</a>
-        <a href="https://github.com/aarontognoli" target="_blank" rel="noreferrer">GitHub</a>
-        <a href="https://www.deib.polimi.it/eng/people/details/1472144" target="_blank" rel="noreferrer">DEIB</a>
-        <a href="https://dblp.org/pid/420/7018.html" target="_blank" rel="noreferrer">DBLP</a>
-      </div>
-    </section>
+  <div>
+    <p class="eyebrow">Contact</p>
+    <h2>Let's talk about research or collaborations.</h2>
+    <p>For scientific collaborations, contact me by email or visit my academic profiles.</p>
+  </div>
+
+  <div class="contact-links">
+    <a href="mailto:aaron.tognoli@polimi.it" aria-label="Email Aaron Tognoli">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M4 6h16v12H4V6zm8 7L5.5 8.5V17h13V8.5L12 13zm0-2 6.5-4h-13L12 11z"/>
+      </svg>
+      Email
+    </a>
+
+    <a href="https://scholar.google.com/citations?user=cSw8KbQAAAAJ&hl=it" target="_blank" rel="noreferrer" aria-label="Google Scholar profile">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 3 2 10l10 7 10-7-10-7zm0 11.6L5.8 10 12 5.4 18.2 10 12 14.6zM6 14.2v3.1c0 1.3 2.7 3.7 6 3.7s6-2.4 6-3.7v-3.1l-6 4.2-6-4.2z"/>
+      </svg>
+      Scholar
+    </a>
+
+    <a href="https://it.linkedin.com/in/aaron-tognoli-0414aa373" target="_blank" rel="noreferrer" aria-label="LinkedIn profile">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M6.9 8.8H3.7V20h3.2V8.8zM5.3 7.3c1 0 1.8-.8 1.8-1.7S6.3 4 5.3 4 3.5 4.7 3.5 5.6s.8 1.7 1.8 1.7zM20.5 20v-6.1c0-3-1.6-4.4-3.8-4.4-1.7 0-2.5.9-2.9 1.6h-.1V8.8h-3.1V20h3.2v-5.5c0-1.5.3-2.9 2.1-2.9s1.8 1.6 1.8 3V20h2.8z"/>
+      </svg>
+      LinkedIn
+    </a>
+
+    <a href="https://www.deib.polimi.it/eng/people/details/1472144" target="_blank" rel="noreferrer" aria-label="DEIB profile">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M4 21V5l8-3 8 3v16h-6v-5h-4v5H4zm2-2h2v-5h8v5h2V6.4l-6-2.2-6 2.2V19zm3-9h2V8H9v2zm4 0h2V8h-2v2zm-4 3h2v-2H9v2zm4 0h2v-2h-2v2z"/>
+      </svg>
+      DEIB
+    </a>
+  </div>
+</section>
   </main>
 
   <footer class="site-footer">
     <p>© <span id="year"></span> Aaron Tognoli. Built for GitHub Pages.</p>
-    <a href="#top">Torna su ↑</a>
+    <a href="#top">Back to top ↑</a>
   </footer>
 
   <script src="assets/script.js"></script>
